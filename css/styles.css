@@ -1,0 +1,517 @@
+/*----------------GLOBAL------------------------*/
+body {
+    background-color: rgb(201, 83, 0);
+}
+
+h1, h2, h3, h4, h5, figcaption {
+    font-family: 'Mystery Quest', cursive;
+}
+
+p {
+    font-family: 'Mystery Quest', cursive;
+}
+
+/*---------------------Nav-------------------*/
+
+#nav-bar {
+    background-color: rgb(201, 83, 0);
+    display: flex;
+    background-color: black;
+    padding: 20px;
+    margin: -12px;
+}
+
+
+#nav-bar header ul {
+    list-style: none;
+    display: flex;
+}
+
+#nav-bar header ul li {
+    list-style: none;
+    display: flex;
+}
+
+#nav-bar header li a {
+    background-color: rgb(201, 83, 0);
+    border-radius: 12px;
+    padding: 6px;
+    margin: 6px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 26px;
+    color: rgb(131, 0, 102);
+}
+
+#nav-bar header li a:hover {
+    background-color: rgb(131, 0, 102) ;
+    color: rgb(201, 83, 0);
+}
+#nav-bar header li p {
+    background-color: rgb(201, 83, 0);
+    border-radius: 12px;
+    padding: 6px;
+    margin: 6px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 26px;
+    color: rgb(131, 0, 102);
+}
+
+#nav-bar header li p:hover {
+    background-color: rgb(131, 0, 102) ;
+    color: rgb(201, 83, 0);
+    overflow:visible;
+}
+
+#nav-bar header .drop-down {
+    display: hidden;
+    position: relative;
+}
+
+#nav-bar header li p:hover .drop-down {
+    display: block;
+}
+
+
+/*-----------------Index-------------------*/
+
+#index {
+    text-align: center;
+    background-image: url(../images/index-background.jpg);
+    margin-top: -30px;
+    background-position: scroll;
+}
+
+#index h1 {
+    color: rgb(201, 83, 0);
+    background-color: rgb(175, 28, 138);
+    border-radius: 20px;
+    border: solid 6px rgb(131, 0, 102);
+    width: 200px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.h-activities {
+    background-color: rgb(175, 28, 138);
+    border: solid 6px rgb(175, 28, 138);
+    display:table;
+    margin: auto;
+    width: 900px;
+    height: 400px;
+
+}
+
+.h-houses {
+    font-size: 24px;
+    background-color: rgb(131, 0, 102) ;
+    margin: 6px;
+    border: purple solid 6px;
+    width: 400px;
+    height: 250px;
+    float: right;
+}
+
+.c-games {
+    font-size: 24px;
+    background-color: rgb(131, 0, 102);
+    margin: 6px;
+    border: purple solid 6px;
+    width: 400px;
+    height: 250px;
+}
+
+.p-carving {
+    font-size: 24px;
+    background-color: rgb(131, 0, 102);
+    margin: 6px;
+    border: purple solid 6px;
+    width: 400px;
+    height: 250px;
+    float: right;
+}
+
+.trick-treat {
+    font-size: 24px;
+    background-color: rgb(131, 0, 102);
+    margin: 6px;
+    border: purple solid 6px;
+    width: 400px;
+    height: 250px;
+}
+
+.halloween-activities a {
+    margin: 6px;
+    padding: 6px;
+    color: rgb(201, 83, 0);
+    text-decoration: underline;
+}
+
+.halloween-activities img {
+    border-radius: 12px;
+    background-color: orange;
+    margin: 4px;
+}
+
+.h-fun-facts {
+    background-color: rgb(175, 28, 138);
+    border: solid 6px rgb(175, 28, 138);
+    display:table;
+    margin: auto;
+    width: 1600px;
+    height: 700px;
+    color: rgb(201, 83, 0);
+}
+
+.h-vampires {
+    font-size: 24px;
+    background-color: rgb(131, 0, 102) ;
+    margin: 6px;
+    border: purple solid 6px;
+    width: 720px;
+    height: 350px;
+    float: right;
+}
+
+.jack-o-lanterns {
+    font-size: 22px;
+    background-color: rgb(131, 0, 102);
+    margin: 6px;
+    border: purple solid 6px;
+    width: 720px;
+    height: 350px;
+}
+
+.h-halloween {
+    font-size: 22px;
+    background-color: rgb(131, 0, 102);
+    margin: 6px;
+    border: purple solid 6px;
+    width: 720px;
+    height: 350px;
+    float: right;
+}
+
+.trick-treating {
+    font-size: 24px;
+    background-color: rgb(131, 0, 102);
+    margin: 6px;
+    border: purple solid 6px;
+    width: 720px;
+    height: 350px;
+}
+
+
+.pumpkingutter {
+    font-size: 24px;
+    background-color: rgb(131, 0, 102) ;
+    margin: auto;
+    border: black solid 12px;
+    border-radius: 12px;
+    width: 720px;
+    height: 350px;
+    margin-top: 6px;
+}
+
+.mosthauntedplaces {
+    font-size: 22px;
+    background-color: rgb(131, 0, 102);
+    margin: auto;
+    border: black solid 12px;
+    border-radius: 12px;
+    width: 720px;
+    height: 350px;
+    margin-top: 6px;
+}
+
+.vintagehalloween {
+    font-size: 22px;
+    background-color: rgb(131, 0, 102);
+    margin: auto;
+    border: black solid 12px;
+    border-radius: 12px;
+    width: 720px;
+    height: 350px;
+    margin-top: 6px;
+}
+
+.vintagehalloween a {
+    text-decoration: underline;
+    color: rgb(201, 83, 0);
+    font-size: 30px;
+}
+
+.mosthauntedplaces a {
+    text-decoration: underline;
+    color: rgb(201, 83, 0);
+    font-size: 30px;
+}
+
+.pumpkingutter a {
+    text-decoration: underline;
+    color: rgb(201, 83, 0);
+    font-size: 30px;
+}
+
+.halloween-websites img{
+    border: 6px solid black;
+    border-radius: 12px;
+    margin-top: 8px;
+}
+
+
+/*------------------------trick or treat-----------------------------*/
+
+#trick-or-treat {
+    background-image: url("../images/trickortreat-background.jpg");
+    margin-top: -30px;
+    text-align: center;
+}
+
+#trick-or-treat h1 {
+    margin: auto;
+    border: purple solid 6px;
+    color: purple ;
+    background-color: darkgrey;
+    width: 350px;
+    border-radius: 12px;
+}
+
+#trick-or-treat img {
+    background-color: darkgrey;
+    border-radius: 12px;
+    border: solid purple 6px;
+    margin-top: 10px;
+}
+.history-trick {
+    color: purple;
+    margin: auto;
+    border: solid 6px purple ;
+    border-radius: 12px;
+    width: 1200px;
+    background-color: darkgrey;
+    margin-top: 8px;
+}
+
+.history-trick p {
+    font-size: 20px;
+}
+
+.history-trick h2 {
+    font-size: 30px;
+}
+
+
+
+/*------------------------pumpkin Carving-----------------------------------*/
+
+#pumpkin-carving {
+    background-image: url(../images/pumpkincarving-background.jpg);
+    margin-top: -30px;
+    text-align: center;
+}
+
+#pumpkin-carving h1 {
+    margin: auto;
+    border: black solid 6px;
+    color: rgb(201, 83, 0) ;
+    background-color: darkgrey;
+    width: 350px;
+    border-radius: 12px;
+}
+
+.pumpkin-carving-photos img{
+    border-radius: 12px;
+    border: solid black 6px;
+    margin-top: 6px;
+}
+
+.pumpkin-contest-title h2 {
+    margin: auto;
+    border: black solid 6px;
+    color: rgb(201, 83, 0) ;
+    background-color: darkgrey;
+    width: 350px;
+    border-radius: 12px;
+    margin-top: 8px;
+}
+
+.pumpkin-carving-desc {
+    color: rgb(201, 83, 0);
+    margin: auto;
+    border: solid 6px black ;
+    border-radius: 12px;
+    width: 400px;
+    background-color: darkgrey;
+    margin-top: 8px;
+    float: left;
+}
+
+.pumpkin-carving-list-box {
+    color: rgb(201, 83, 0);
+    margin: auto;
+    border: solid 6px black ;
+    border-radius: 12px;
+    width: 600px;
+    height: 350px;
+    background-color: darkgrey;
+    margin-top: 8px;
+}
+
+.pumpkin-carving-list-box a {
+    text-decoration: underline;
+    color: rgb(201, 83, 0);
+    font-size: 26px;
+}
+
+/*-------------------------------haunted-houses--------------------------------*/
+
+#haunted-houses {
+    background-image: url(../images/hauntedhouse-background.jpg);
+    margin-top: -30px;
+    margin-bottom: -30px;
+    text-align: center;
+}
+
+#haunted-houses h1 {
+    margin: auto;
+    border: purple solid 6px;
+    color: purple ;
+    background-color: darkgrey;
+    width: 300px;
+    border-radius: 12px;
+}
+
+.intro-box {
+    display: flex;
+}
+
+.haunted-house-history {
+    color: purple;
+    margin: auto;
+    border: solid 6px purple ;
+    border-radius: 12px;
+    width: 400px;
+    background-color: darkgrey;
+    margin-top: 8px;
+}
+
+.haunted-house-description {
+    color: purple;
+    margin: auto;
+    border: solid 6px purple ;
+    border-radius: 12px;
+    width: 400px;
+    background-color: darkgrey;
+    margin-top: 8px;
+}
+
+.haunted-house-first {
+    color: purple;
+    margin: auto;
+    border: solid 6px purple ;
+    border-radius: 12px;
+    width: 400px;
+    background-color: darkgrey;
+    margin-top: 8px;
+}
+
+
+.haunted-houses-list-box {
+    color: purple;
+    margin: auto;
+    border: solid 6px purple ;
+    border-radius: 12px;
+    width: 600px;
+    height: 300px;
+    background-color: darkgrey;
+    margin-top: 8px;
+}
+
+.haunted-houses-list-box a {
+    text-decoration: underline;
+    color: purple;
+    font-size: 26px;
+}
+
+.title-haunted-utah h2 {
+    margin: auto;
+    border: purple solid 6px;
+    color: purple ;
+    background-color: darkgrey;
+    width: 300px;
+    border-radius: 12px;
+}
+/*-------------------------------------------halloween games------------------------------*/
+
+#halloween-games {
+    background-image: url(../images/vampire-background.jpg);
+    color:darkred ;
+    text-align: center;
+    margin-top: -30px;
+
+}
+
+#halloween-games h1{
+    background-color: darkgrey;
+    border: solid black 3px ;
+    border-radius: 12px;
+    width: 350px;
+    margin: auto;
+}
+
+.murder-mystery {
+    background-color: darkgrey;
+    border: darkred 6px solid;
+    border-radius: 12px;
+    margin: auto;
+    width: 800px;
+    height: 900px;
+    margin-top: 6px;
+}
+
+.murder-mystery img {
+    border: darkred solid 6px;
+    border-radius: 12px;
+}
+
+.murder-mystery h2 {
+    color: darkred;
+}
+.murder-mystery p {
+    color: darkred;
+}
+
+.costume-contest {
+    background-color: darkgrey;
+    border: purple 6px solid;
+    border-radius: 12px;
+    margin: auto;
+    width: 800px;
+    height: 700px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.costume-contest img {
+    border: purple solid 6px;
+    border-radius: 12px;
+}
+
+.costume-contest h2 {
+    color: purple;
+}
+.costume-contest p {
+    color: purple;
+}
+
+/*------------------Footer---------------------*/
+
+footer {
+    text-align: center;
+    font-size: 20px;
+}
+
+
